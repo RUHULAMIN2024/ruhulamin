@@ -1,0 +1,36 @@
+import education from "./data/education.json";
+
+const Education = () => {
+  return (
+    <>
+      <div className="container ex" id="education">
+        <h1 className="text-center uppercase text-4xl">Education</h1>
+        {education.map((data) => {
+          return (
+            <>
+              <div
+                key={data.id}
+                className="ex-items text-center my-5"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+              >
+                
+                <div className="right">
+                  <h2 className="text-4xl">{data.degree}</h2>
+                  <h4 className="text-3xl" style={{ color: "yellowgreen" }}>
+                  {data.institude}
+                   
+                  </h4>
+                  <h5 className="text-2xl" style={{ color: "yellow" }}>{data.sesion}</h5>
+                 
+                </div>
+              </div>
+            </>
+          );
+        })}
+      </div>
+    </>
+  );
+};
+
+export default Education;

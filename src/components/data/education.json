@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "degree": "BBA In Management",
+    "institude":"National University, (Bangladesh)",
+    "sesion":"Session: 2018- 2019"
+  },
+  
+  {
+    "id": 2,
+    "degree": "Higher School Certificate",
+    "institude":"Government J.K.A. Gani College",
+    "sesion":"Session: 2016- 2017"
+  },
+  
+  {
+    "id": 3,
+    "degree": "Secondary School Certificate",
+    "institude":"Panbari High School",
+    "sesion":"Session: 2014- 2015"
+  }
+]
