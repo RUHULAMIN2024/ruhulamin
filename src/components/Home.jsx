@@ -26,8 +26,8 @@ const Home = () => {
 
   return (
     <>
-      <div className=" home" id="home">
-        <div className="left" data-aos="fade-up-right" data-aos-duration="1000">
+      <div className=" flex flex-col-reverse md:flex-row gap-3 home" id="home">
+        <div className="w-full md:w-[620px] left" data-aos="fade-up-right" data-aos-duration="1000">
           <h1 className="text-4xl" ref={typedRef}></h1>
 
           <a
