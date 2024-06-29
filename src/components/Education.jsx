@@ -3,8 +3,8 @@ import education from "./data/education.json";
 const Education = () => {
   return (
     <>
-      <div className="container ex" id="education">
-        <h1 className="text-center mt-5 uppercase text-4xl">Education</h1>
+      <div className="container ex" id="experience">
+        <h1 className="text-center mt-5 uppercase text-4xl">Education & COURSES</h1>
         {education.map((data) => {
           return (
             <>

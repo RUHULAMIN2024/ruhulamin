@@ -4,8 +4,8 @@ const Navbar = () => {
     <a href="#home" className="nav_items">
       Home
     </a>
-    <a href="#education" className="nav_items">
-      Education
+    <a href="#experience" className="nav_items">
+      Experience
     </a>
     <a href="#skills" className="nav_items">
       Skills

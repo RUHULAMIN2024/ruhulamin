@@ -8,15 +8,10 @@
   
   {
     "id": 2,
-    "degree": "Higher School Certificate",
-    "institude":"Government J.K.A. Gani College",
-    "sesion":"Session: 2016- 2017"
-  },
-  
-  {
-    "id": 3,
-    "degree": "Secondary School Certificate",
-    "institude":"Panbari High School",
-    "sesion":"Session: 2014- 2015"
+    "degree": "Complete Web Development Course",
+    "institude":"Programming Hero",
+    "sesion":"December 2023 - June 2024"
   }
+  
+  
 ]
