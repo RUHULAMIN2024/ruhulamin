@@ -2,16 +2,22 @@
   {
     "id": 1,
     "degree": "BBA In Management",
-    "institude":"National University, (Bangladesh)",
-    "sesion":"Session: 2018- 2019"
+    "institude": "National University, (Bangladesh)",
+    "sesion": "Session: 2018- 2019",
+    "certificate": "null"
   },
-  
   {
     "id": 2,
     "degree": "Complete Web Development Course",
-    "institude":"Programming Hero",
-    "sesion":"December 2023 - June 2024"
+    "institude": "Programming Hero",
+    "sesion": "December 2023 - June 2024",
+    "certificate": "https://drive.google.com/file/d/1oSMhxWid0_vXd8Ouo59dAzyc-P5gXaN-/view?usp=sharing"
+  },
+  {
+    "id": 3,
+    "degree": "Spoken English",
+    "institude": "Rahat's English Care",
+    "sesion": "November 2023 - February 2024",
+    "certificate": "null"
   }
-  
-  
 ]

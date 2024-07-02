@@ -30,7 +30,7 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <h1 className="nav_items">Ruhul Amin</h1>
+        <h1 className="nav_items uppercase cursor-pointer">Ruhul Amin</h1>
       </div>
       <div className="navbar-end hidden lg:flex flex-1">
         <ul className="menu menu-horizontal px-1">
