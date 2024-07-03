@@ -23,7 +23,7 @@ const Education = () => {
                   </h4>
                   <h5 className="text-2xl" style={{ color: "yellow" }}>{data.sesion}</h5>
 
-                  <a className="btn btn-outline text-yellow-500 hover:bg-yellow-500 hover:text-black mt-3" href={data?.certificate} target="_blank">See Certificate</a>
+                  <a className="btn btn-outline text-yellow-500 hover:bg-yellow-500 hover:text-black mt-3" href={data?.certificate}>See Certificate</a>
 
                 </div>
               </div>

@@ -5,8 +5,30 @@ import { CiFacebook } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithubSquare } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { useRef } from "react";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+
+    emailjs
+      .sendForm('service_4g719xj', 'template_xvve9dv', form.current, {
+        publicKey: '1giK4l7XArlsCkYmy',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
   return (
     <>
       <div className="container contact" id="contact">
@@ -49,20 +71,20 @@ const Contact = () => {
             </div>
             <img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/c44c1690013661.5e0a009911e87.gif" alt="" className="p-6 h-52 md:h-64" />
           </div>
-          <form noValidate="" className="space-y-6">
+          <form noValidate="" ref={form} onSubmit={sendEmail} className="space-y-6">
             <div>
               <label htmlFor="name" className="text-sm">Full name</label>
-              <input id="name" type="text" placeholder="" className="w-full p-3 rounded text-slate-500 dark:bg-gray-100" />
+              <input id="name" type="text" name="name" placeholder="" className="w-full p-3 rounded text-slate-500 dark:bg-gray-100" />
             </div>
             <div>
               <label htmlFor="email" className="text-sm">Email</label>
-              <input id="email" type="email" className="w-full p-3 rounded text-slate-500 dark:bg-gray-100" />
+              <input id="email" type="email" name="email" className="w-full p-3 rounded text-slate-500 dark:bg-gray-100" />
             </div>
             <div>
               <label htmlFor="message" className="text-sm">Message</label>
-              <textarea id="message" rows="3" className="w-full p-3 rounded text-slate-500 dark:bg-gray-100"></textarea>
+              <textarea id="message" rows="3" name="message" className="w-full p-3 rounded text-slate-500 dark:bg-gray-100"></textarea>
             </div>
-            <button type="submit" className="w-full btn btn-outline text-yellow-500 hover:bg-yellow-500 hover:text-black my-3 p-3 text-sm font-bold tracking-wide uppercase rounded dark:bg-violet-600 dark:text-gray-50">Send Message</button>
+            <input type="submit" value='Send Message' className="w-full btn btn-outline text-yellow-500 hover:bg-yellow-500 hover:text-black my-3 p-3 text-sm font-bold tracking-wide uppercase rounded dark:bg-violet-600 dark:text-gray-50" />
           </form>
         </div>
       </div>

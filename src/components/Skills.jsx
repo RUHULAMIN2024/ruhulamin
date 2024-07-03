@@ -6,18 +6,17 @@ const Skills = () => {
       <div className="container skills" id="skills">
         <h1 className="text-center pt-5 mb-3 text-4xl">SKILLS</h1>
         <div className="items">
-          {skills.map((data) => (
-            <>
+          {skills.map((data, index) => (
               <div
                 className="item flex flex-col items-center justify-center"
-                key={data.id}
+                key={index}
                 data-aos="flip-left"
                 data-aos-duration="1000"
               >
                 <img src={`/assets/${data.imageSrc}`} alt="" />
                 <h3 className="text-3xl">{data.title}</h3>
               </div>
-            </>
+            
           ))}
         </div>
       </div>
