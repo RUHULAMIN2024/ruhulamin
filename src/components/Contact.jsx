@@ -7,6 +7,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const form = useRef();
@@ -22,6 +23,9 @@ const Contact = () => {
       .then(
         () => {
           console.log('SUCCESS!');
+          toast.success("Your Message Sent Successfully!", {
+            position: "top-center"
+          });
         },
         (error) => {
           console.log('FAILED...', error.text);
