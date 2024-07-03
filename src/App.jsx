@@ -7,7 +7,6 @@ import Contact from './components/Contact'
 import Aos from "aos";
 import "aos/dist/aos.css"
 import { useEffect } from "react";
-import { ToastContainer } from "react-toastify";
 
 
 const App = () => {
@@ -36,8 +35,6 @@ const App = () => {
             <p>Copyright © {new Date().getFullYear()} - All right reserved by Ruhul Amin</p>
           </aside>
         </footer>
-        <ToastContainer />
-
     </>
   );
 };
