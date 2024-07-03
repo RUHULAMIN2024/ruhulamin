@@ -26,6 +26,7 @@ const Contact = () => {
           toast.success("Your Message Sent Successfully!", {
             position: "top-center"
           });
+          form.current.reset();
         },
         (error) => {
           console.log('FAILED...', error.text);
