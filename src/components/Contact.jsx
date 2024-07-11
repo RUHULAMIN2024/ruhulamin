@@ -72,22 +72,22 @@ const Contact = () => {
           <div className="flex flex-col justify-between">
             <div className="space-y-2">
               <h2 className="text-4xl font-bold leading-tight lg:text-4xl">Let`s talk!</h2>
-              <div className="dark:text-gray-600">Our friendly team is always here to chat</div>
+              <div className="">Our friendly team is always here to chat</div>
             </div>
             <img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/c44c1690013661.5e0a009911e87.gif" alt="" className="p-6 h-52 md:h-64" />
           </div>
           <form noValidate="" ref={form} onSubmit={sendEmail} className="space-y-6">
             <div>
               <label htmlFor="name" className="text-sm">Full name</label>
-              <input id="name" type="text" name="name" placeholder="" className="w-full p-3 rounded text-slate-500 dark:bg-gray-100" />
+              <input required id="name" type="text" name="name" placeholder="" className="w-full p-3 rounded text-slate-500" />
             </div>
             <div>
               <label htmlFor="email" className="text-sm">Email</label>
-              <input id="email" type="email" name="email" className="w-full p-3 rounded text-slate-500 dark:bg-gray-100" />
+              <input required id="email" type="email" name="email" className="w-full p-3 rounded text-slate-500" />
             </div>
             <div>
               <label htmlFor="message" className="text-sm">Message</label>
-              <textarea id="message" rows="3" name="message" className="w-full p-3 rounded text-slate-500 dark:bg-gray-100"></textarea>
+              <textarea required id="message" rows="3" name="message" className="w-full p-3 rounded text-slate-500"></textarea>
             </div>
             <input type="submit" value='Send Message' className="w-full btn btn-outline text-yellow-500 hover:bg-yellow-500 hover:text-black my-3 p-3 text-sm font-bold tracking-wide uppercase rounded dark:bg-violet-600 dark:text-gray-50" />
           </form>
