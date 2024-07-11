@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <>
       <div className="container projects my-3" id="projects">
-        <h1 className=" mt-5 mb-3 text-4xl">PROJECTS</h1>
+        <h1 className=" mt-5 mb-3 text-4xl">RECENT PROJECTS</h1>
         <div className="row d-flex justify-center md:-ml-16 gap-8 align-content-center">
           {project.map((data) => (
             <>
@@ -15,7 +15,7 @@ const Projects = () => {
                 className="my-4 col-sm-6 col-md-4 col-lg-3 mx-4"
               >
                 <div
-                  className="card w-80 bg-dark text-light"
+                  className="card w-72 md:w-80 bg-dark text-light"
                   style={{
                     border: "1px solid yellow",
                     boxShadow: "5px 5px 10px 10px rgba(101, 175, 10, 0.5)",
