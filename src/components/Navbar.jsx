@@ -4,6 +4,9 @@ const Navbar = () => {
     <a href="#home" className="nav_items">
       Home
     </a>
+    <a href="#about" className="nav_items">
+      About
+    </a>
     <a href="#education" className="nav_items">
     Education
     </a>

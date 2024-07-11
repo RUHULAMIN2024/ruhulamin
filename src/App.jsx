@@ -7,6 +7,7 @@ import Contact from './components/Contact'
 import Aos from "aos";
 import "aos/dist/aos.css"
 import { useEffect } from "react";
+import About from "./components/About";
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
       <div className="container">
 
         <Home />
+        <About></About>
         <Experience />
         <Skills />
         <Projects />
@@ -30,7 +32,7 @@ const App = () => {
       </div>
       
     </div>
-    <footer className="footer footer-center bg-base-300 text-base-content mt-5 p-4">
+    <footer className="footer footer-center bg-white text-base-content mt-5 p-4">
           <aside>
             <p>Copyright © {new Date().getFullYear()} - All right reserved by Ruhul Amin</p>
           </aside>

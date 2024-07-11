@@ -37,7 +37,7 @@ const Contact = () => {
   return (
     <>
       <div className="container contact" id="contact">
-        <h1 className="text-center mt-5 text-4xl">CONTACT ME</h1>
+        <h1 className="text-bold mt-5 text-4xl">CONTACT ME</h1>
         <div
           className="contact-icon"
           data-aos="zoom-in-up"
