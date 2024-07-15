@@ -36,8 +36,8 @@ const Contact = () => {
 
   return (
     <>
-      <div className="container contact" id="contact">
-        <h1 className="text-bold mt-5 text-4xl">CONTACT ME</h1>
+      <div className="container pt-20 contact" id="contact">
+        <h1 className="text-bold text-center text-4xl">CONTACT ME</h1>
         <div
           className="contact-icon"
           data-aos="zoom-in-up"

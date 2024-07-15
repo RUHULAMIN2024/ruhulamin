@@ -5,8 +5,8 @@ import { FaLink } from "react-icons/fa";
 const Projects = () => {
   return (
     <>
-      <div className="container projects my-3" id="projects">
-        <h1 className=" mt-5 mb-3 text-4xl">RECENT PROJECTS</h1>
+      <div className="container pt-10 projects my-3" id="projects">
+        <h1 className=" mt-5 mb-3 text-center text-4xl">RECENT PROJECTS</h1>
         <div className="row d-flex justify-center md:-ml-16 gap-8 align-content-center">
           {project.map((data) => (
             <>

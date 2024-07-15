@@ -5,8 +5,8 @@ const Education = () => {
     <>
       
 
-      <div className="container " id="education">
-      <h1 className=" mt-5 uppercase text-4xl">Education & COURSES</h1>
+      <div className="container pt-20 " id="education">
+      <h1 className=" uppercase text-center text-4xl">Education & COURSES</h1>
         {education.map((data) => {
           return (
             <>

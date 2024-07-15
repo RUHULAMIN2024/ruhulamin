@@ -3,8 +3,8 @@ import skills from "./data/skills.json";
 const Skills = () => {
   return (
     <>
-      <div className="container skills" id="skills">
-        <h1 className=" mt-5 mb-3 text-4xl">MY SKILLS</h1>
+      <div className="container pt-10 skills" id="skills">
+        <h1 className=" mb-3 text-center text-4xl">MY SKILLS</h1>
         <div className="items">
           {skills.map((data, index) => (
               <div
