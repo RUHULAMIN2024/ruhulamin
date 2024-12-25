@@ -24,8 +24,12 @@
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "Firebase",
-    "imageSrc": "skills/firebase.png"
+    "title": "Redux",
+    "imageSrc": "skills/redux.png"
+  },
+  {
+    "title": "Next",
+    "imageSrc": "skills/next.png"
   },
   {
     "title": "Node",
@@ -38,6 +42,10 @@
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "Firebase",
+    "imageSrc": "skills/firebase.png"
   },
   {
     "title": "VS Code",
